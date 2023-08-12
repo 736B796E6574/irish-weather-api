@@ -20,12 +20,18 @@ def save_to_file(data, filename="weather_data.xml"):
         file.write(data)
 
 if __name__ == "__main__":
-    latitude = 52.051486344257704
-    longitude = -9.093779204800772
-    
-    data = asyncio.run(fetch_weather_data(latitude, longitude))
-    if data:
-        save_to_file(data)
-        print(f"Data saved to 'weather_data.xml'")
-    else:
-        print("Failed to fetch data.")
+    # Define locations as a dictionary: {"location_name": (latitude, longitude)}
+    locations = {
+        "Clara": (52.051486344257704, -9.093779204800772),
+        "Knockmealdown": (53.123456, -9.123456),  # Sample data
+        # Add more locations as needed
+    }
+
+    for location_name, (latitude, longitude) in locations.items():
+        data = asyncio.run(fetch_weather_data(latitude, longitude))
+        if data:
+            filename = f"{location_name}.xml"
+            save_to_file(data, filename)
+            print(f"Data saved to '{filename}'")
+        else:
+            print(f"Failed to fetch data for {location_name}.")

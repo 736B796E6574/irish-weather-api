@@ -1,33 +1,11 @@
-<weatherdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.met.no/weatherapi/locationforecast/1.9/schema" created="2023-08-12T15:59:03Z">
+<weatherdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.met.no/weatherapi/locationforecast/1.9/schema" created="2023-08-12T16:48:45Z">
    <meta>
-      <model name="harmonie" termin="2023-08-12T12:00:00Z" runended="2023-08-12T15:17:21Z" nextrun="2023-08-12T16:00:00Z" from="2023-08-12T16:00:00Z" to="2023-08-14T18:00:00Z" />
+      <model name="harmonie" termin="2023-08-12T12:00:00Z" runended="2023-08-12T15:17:21Z" nextrun="2023-08-12T22:00:00Z" from="2023-08-12T17:00:00Z" to="2023-08-14T18:00:00Z" />
       <model name="ec_n1280_1hr" termin="2023-08-12T00:00:00Z" runended="2023-08-12T15:17:20Z" nextrun="2023-08-12T18:00:00Z" from="2023-08-14T19:00:00Z" to="2023-08-15T18:00:00Z" />
       <model name="ec_n1280_3hr" termin="2023-08-12T00:00:00Z" runended="2023-08-12T15:17:20Z" nextrun="2023-08-12T18:00:00Z" from="2023-08-15T21:00:00Z" to="2023-08-18T00:00:00Z" />
       <model name="ec_n1280_6hr" termin="2023-08-12T00:00:00Z" runended="2023-08-12T15:17:20Z" nextrun="2023-08-12T18:00:00Z" from="2023-08-18T06:00:00Z" to="2023-08-22T00:00:00Z" />
       </meta>
    <product class="pointData">
-      <time datatype="forecast" from="2023-08-12T16:00:00Z" to="2023-08-12T16:00:00Z">
-         <location altitude="379" latitude="52.0515" longitude="-9.0938">
-            <temperature id="TTT" unit="celsius" value="14.0"/>
-            <windDirection id="dd" deg="1" name="N"/>
-            <windSpeed id="ff" mps="5.9" beaufort="4" name="Laber bris"/>
-            <windGust id="ff_gust" mps="11.7"/>
-            <globalRadiation value="283.9" unit="W/m^2"/>
-            <humidity value="87.3" unit="percent"/>
-            <pressure id="pr" unit="hPa" value="1010.0"/>
-            <cloudiness id="NN" percent="99.8"/>
-            <lowClouds id="LOW" percent="85.3"/>
-            <mediumClouds id="MEDIUM" percent="0.0"/>
-            <highClouds id="HIGH" percent="94.1"/>
-            <dewpointTemperature id="TD" unit="celsius" value="12.0"/>
-         </location>
-      </time>
-      <time datatype="forecast" from="2023-08-12T15:00:00Z" to="2023-08-12T16:00:00Z">
-         <location altitude="379" latitude="52.0515" longitude="-9.0938">
-            <precipitation unit="mm" value="0.2" minvalue="0.1" maxvalue="0.4" probability="46.6"/>
-<symbol id="Drizzle" number="46"/>
-         </location>
-      </time>
       <time datatype="forecast" from="2023-08-12T17:00:00Z" to="2023-08-12T17:00:00Z">
          <location altitude="379" latitude="52.0515" longitude="-9.0938">
             <temperature id="TTT" unit="celsius" value="14.0"/>
